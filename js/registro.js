@@ -14,6 +14,11 @@ function logear() {
     var contraseña = document.getElementById("password").value;
     var usuario = document.getElementById("username").value;
 
+    if (usuario == 'admin' && contraseña == 'admin') {
+        window.open("admin.html");
+    }
+
+
     if (contraseña.length < 8) {
         // Las contraseñas no coinciden, mostrar mensaje de error
         alert("La contraseña es muy corta");
