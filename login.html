@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Control de Producción</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/styleLogin.css">
 </head>
 
 <body>
@@ -20,27 +20,17 @@
         </nav>
     </header>
 
-    <h1>Control de Producción</h1>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="index.html" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
 
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Inventario</a></li>
-            <li><a href="#">Pedidos</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
-
-    <section>
-        <h2>Últimos Productos</h2>
-        <ul>
-            <li>Producto 1</li>
-            <li>Producto 2</li>
-            <li>Producto 3</li>
-            <li>Producto 4</li>
-        </ul>
-    </section>
 
     <footer>
         <p>&copy; 2023 Control de Producción</p>
